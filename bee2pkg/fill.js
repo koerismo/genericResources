@@ -12,7 +12,7 @@ const editoritems_template = `
 				"Palette"
 				{
 					"Tooltip"		"{ITEM_NAME}"
-					"Image"			"palette/clean/{ITEM_ID}.png"
+					"Image"			"palette/beepkg/{ITEM_ID}.png"
 					"Position"		"4 2 0"
 				}
 				"Sounds"
@@ -44,7 +44,7 @@ const editoritems_template = `
 		{
 			"0"
 			{
-				"Name" "instances/BEE2/clean/{ITEM_ID}.vmf"
+				"Name" "instances/BEE2/beepkg/{ITEM_ID}.vmf"
 				"EntityCount"	"4"
 				"BrushCount"	"4" 
 				"BrushSideCount"	"24"
@@ -60,9 +60,9 @@ const properties_template = `
 "Properties" {
 	"Authors" ""
 	"Description" "{ITEM_DESC}"
-	"Icon" "clean/{ITEM_ID}.png"
+	"Icon" "beepkg/{ITEM_ID}.png"
 	{
-		"0" "clean/{ITEM_ID}.png"
+		"0" "beepkg/{ITEM_ID}.png"
 	}
 }
 `
