@@ -89,3 +89,25 @@ const info_item_template = `
 	}
 }
 `
+
+const item_template = `
+`
+  <header onclick="collapse(this)">Toggle Collapse</header>
+  <hr>
+  <input class="pkg-input item-name" placeholder="Item Name"><br>
+  <input class="pkg-input item-desc" placeholder="Item Description"><br>
+  <hr>
+  <label>Item Icon VTF</label>
+  <input class="pkg-input item-icon-vtf" type="file"><br>
+  <label>Item Icon PNG</label>
+  <input class="pkg-input item-icon-png" type="file"><br>
+  <label>Item Instance</label>
+  <input class="pkg-input item-inst" type="file"><br>
+  <hr>
+  <button onclick="addInput(this)">Add Input</button>
+  <section class="item-inputs"></section>
+  <button onclick="addOutput(this)">Add Output</button>
+  <section class="item-outputs"></section>
+  <hr>
+  <button onclick="this.parentElement.parentElement.removeChild(this.parentElement)">Delete Item</button>
+`
