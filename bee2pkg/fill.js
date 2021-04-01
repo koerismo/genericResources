@@ -37,7 +37,16 @@ const editoritems_template = `
 		"CanAnchorOnGoo"	"0"
 		"CanAnchorOnBarriers"	"0"
 	}
-	"Properties" {}
+	"Properties"{}
+	"Inputs"
+	{
+{ITEM_INPUTS}
+	}
+	"Outputs"
+	{
+{ITEM_OUTPUTS}
+	}
+
 	"Exporting"
 	{
 		"Instances"
